@@ -9,7 +9,7 @@ public final class DarkHealer extends Healer{
     }
 
     @Override
-    public void doNothing() {
+    public final void doNothing() {
         System.out.println("I am useless too");
     }
     @Override
